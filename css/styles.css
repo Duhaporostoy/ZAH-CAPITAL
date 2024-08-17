@@ -1,0 +1,90 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.домой{
+    height: 105px;
+    width: auto;
+    position:relative;
+    top: 50px;
+    left: 50px;
+    border: 10px solid white;
+}
+.tov1{
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.tov1{
+	margin-bottom: 10px;
+}
+
+.info h3 {
+	font-size: 23px;
+	font-weight: 700;
+
+}
+
+.product{
+	margin-bottom: 30px;
+	margin-right: 20px;
+
+}
+/**
+ * Другие стили
+ */
+.info-prace{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 14px;
+	align-items: center;
+}
+
+.add-to-cart{
+	border: none;
+	width: 60px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7e7e7e;
+	color: #ffffff;
+	border-radius: 2px;
+}
+
+
+.centered {
+    text-align: center;
+	padding-top: 170px;
+	padding-bottom: 170px; 
+}
+
+.custom-button {
+    padding: 15px 100px;
+    font-size: 18px;
+    color: white;
+    background-color: #2e43ff; /* светло-голубой цвет */
+    border: none;
+    border-radius: 10px; /* закругленные углы */
+    cursor: pointer;
+	text-decoration: none;
+    transition: background-color 0.3s ease; /* плавный переход цвета */	
+}
+
+.custom-button:hover {
+    background-color: #00028a; /* более темный голубой цвет при наведении */
+}
+
+
